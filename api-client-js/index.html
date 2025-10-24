@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Cliente API Personas</title>
+  <meta charset="utf-8">
+  
+</head>
+
+<body>
+ 
+
+  <h2>Login (obtener Token JWT)</h2>
+  <input id="email" placeholder="Email">
+  <input id="password" type="password" placeholder="Password">
+  <button onclick="login()">Login</button>
+  <div id="token"></div>
+  <hr>
+
+  <h2>Personas</h2>
+  <button onclick="getPersonas()">Obtener Personas</button>
+  <div id="personas"></div>
+  <hr>
+
+  <h3>Crear Persona</h3>
+  <input id="nombres" placeholder="Nombres">
+  <input id="apellidos" placeholder="Apellidos">
+  <input id="ci" placeholder="CI">
+  <input id="direccion" placeholder="Dirección">
+  <input id="telefono" placeholder="Teléfono">
+  <input id="emailPersona" placeholder="Email">
+  <button onclick="crearPersona()">Crear Persona</button>
+  <div id="resultadoPOST"></div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>

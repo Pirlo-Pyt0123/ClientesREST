@@ -1,0 +1,66 @@
+body {
+  background: #f5f7fa;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 32px;
+}
+
+h2, h3 {
+  color: #28497A;
+  margin-bottom: 4px;
+}
+
+input, button {
+  font-size: 1em;
+  padding: 8px 10px;
+  margin: 4px 2px;
+  border: 1px solid #bdbdbd;
+  border-radius: 4px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #28497A;
+}
+
+button {
+  background: #28497A;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #476eb6;
+}
+
+#personas table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 14px;
+  background: #fff;
+}
+
+#personas th, #personas td {
+  border: 1px solid #e0e0e0;
+  padding: 8px;
+  text-align: left;
+}
+
+#personas th {
+  background: #edf1f6;
+  color: #28497A;
+}
+
+#personas tr:nth-child(even) {
+  background: #f3f6fa;
+}
+
+#resultadoPOST, #token {
+  margin: 10px 0;
+  font-family: 'Consolas', monospace;
+  color: #176208;
+  word-break: break-all;
+}
